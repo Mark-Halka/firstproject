@@ -1,9 +1,27 @@
-﻿int a = 1;
-int b = ++a * a;
-int c = (a * a);
-int d = ++c;
-Console.WriteLine(d);
-int e = 7;
-int f = 8;
-Console.WriteLine(e == f);
+﻿bool IsInfected = true;
+if (IsInfected)
+{
+    Console.WriteLine("Character is infected!");
+}
+else
+{
+    Console.WriteLine("Character is not infected");
+}
+
+Console.WriteLine("2 + 2?");
+int a = int.Parse(Console.ReadLine());
+if (a == 4)
+{
+    Console.WriteLine("It is corect");
+}
+else
+{ 
+    Console.WriteLine("It is false");
+}
+
+
+
+
+
+
 
