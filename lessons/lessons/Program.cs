@@ -1,31 +1,24 @@
-﻿bool ininfected = true;
-if (!ininfected)
+﻿int a = int.Parse(Console.ReadLine());
+switch (a)
 {
-    Console.WriteLine("Character is infected");
+    case 1:
+        Console.WriteLine("your number is 1");
+        break;
+    case 2:
+        Console.WriteLine("your number is 2");
+        break;
+    case 3:
+    default:
+        Console.WriteLine("Error 404");
+        break;
 }
-else
+string b = Console.ReadLine();
+switch (b)
 {
-    Console.WriteLine("Character is not infected");
-}
-// ! - не, міняє значеня на протилежне
-bool HightTemperature = true;
-bool ColderNotWorking = true;
-if (HightTemperature && ColderNotWorking)
-{
-    Console.WriteLine("Procesor is crashed");
-}
-/* && - провіряє два файли і якщо хочяб один файл false комп використовує else а в
-цому випадку нічого не робить */
-int fanSpeed = 0;
-bool HightTemperature1 = false;
-bool ColderNotWorking1 = fanSpeed <= 2999;
-if (HightTemperature1 || ColderNotWorking1)
-{
-    Console.WriteLine("Procesor is crashed");
-}
-// || провіряє два файли і якщо хочяб один файл true комп використовує if
-// &, | - непотрібна фігня
-
-
-
-
+    case "+":
+        Console.WriteLine("+");
+        break;
+    case "-":
+        Console.WriteLine("-");
+        break;
+} 
