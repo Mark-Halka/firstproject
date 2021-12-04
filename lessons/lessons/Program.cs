@@ -1,24 +1,19 @@
-﻿int a = int.Parse(Console.ReadLine());
-switch (a)
+﻿int count = -1;
+while (count < 4)
 {
-    case 1:
-        Console.WriteLine("your number is 1");
-        break;
-    case 2:
-        Console.WriteLine("your number is 2");
-        break;
-    case 3:
-    default:
-        Console.WriteLine("Error 404");
-        break;
+    count++;
+    Console.WriteLine(count);
 }
-string b = Console.ReadLine();
-switch (b)
+
+int count1 = -1;
+do
 {
-    case "+":
-        Console.WriteLine("+");
-        break;
-    case "-":
-        Console.WriteLine("-");
-        break;
-} 
+    count1++;
+    Console.WriteLine(count1);
+} while (count1 < 4);
+int count2 = 10;
+while (count2 > 4)
+{
+    count2--;
+    Console.WriteLine(count2);
+}
