@@ -1,8 +1,18 @@
-﻿
+﻿int a = 1000;
+for (; ; )
+{
+    a--;
+    a--;
+    a--;
+    a--;
+    a--;
+    a--;
+    a--;
+    Console.WriteLine(a);
+    System.Threading.Thread.Sleep(1);
+}
 
-int a = int.Parse(Console.ReadLine());
-for (int i = int.Parse(Console.ReadLine()); i < a + 1; i++)
+for (int i = 5; i >= 0; i--)
 {
     Console.WriteLine(i);
 }
-
