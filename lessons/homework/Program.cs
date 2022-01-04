@@ -1,19 +1,17 @@
-﻿int count = int.Parse(Console.ReadLine());
-int limit = int.Parse(Console.ReadLine());
+﻿
+using System;
 
-int oddNumbers = 0;
-int evenNumbers = 0;
-while (count < limit + 1)
+namespace homework
 {
-    if (count % 2 == 0)
+    public class Program
     {
-        oddNumbers++;
+        static void Main(string[] args)
+        {
+
+
+
+
+
+        }
     }
-    else
-    {
-        evenNumbers++;
-    }
-    count++;
 }
-Console.WriteLine(oddNumbers);
-Console.WriteLine(evenNumbers);
