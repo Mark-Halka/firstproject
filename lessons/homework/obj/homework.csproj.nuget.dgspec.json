@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\програмування\\save\\firstproject\\lessons\\homework\\homework.csproj": {}
+    "D:\\dew\\save\\firstproject\\lessons\\homework\\homework.csproj": {}
   },
   "projects": {
-    "D:\\програмування\\save\\firstproject\\lessons\\homework\\homework.csproj": {
+    "D:\\dew\\save\\firstproject\\lessons\\homework\\homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\програмування\\save\\firstproject\\lessons\\homework\\homework.csproj",
+        "projectUniqueName": "D:\\dew\\save\\firstproject\\lessons\\homework\\homework.csproj",
         "projectName": "homework",
-        "projectPath": "D:\\програмування\\save\\firstproject\\lessons\\homework\\homework.csproj",
+        "projectPath": "D:\\dew\\save\\firstproject\\lessons\\homework\\homework.csproj",
         "packagesPath": "C:\\Users\\markh\\.nuget\\packages\\",
-        "outputPath": "D:\\програмування\\save\\firstproject\\lessons\\homework\\obj\\",
+        "outputPath": "D:\\dew\\save\\firstproject\\lessons\\homework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
