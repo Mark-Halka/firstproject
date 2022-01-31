@@ -7,29 +7,31 @@ namespace lessons
     {
         static void Main(string[] args)
         {
-            int[,] b = new int[2, 3];
             
-            for (int i = 0; i < b.GetLength(0); i++)
+            int[][] a = new int[3][];
+            a[0] = new int[3];
+            a[1] = new int[2];
+            a[2] = new int[5];
+
+            Random random = new Random();
+            for (int i = 0; i < a.Length; i++)
             {
-                for (int j = 0; j < b.GetLength(1); j++)
+                for (int j = 0; j < a[i].Length; j++)
                 {
-                    Console.WriteLine("Y : " + i + ", X : " + j);
-                    b[i, j] = int.Parse(Console.ReadLine());
+                    a[i][j] = random.Next(100);
                 }
+
             }
 
-            Console.WriteLine();
-
-            for (int y = 0; y < b.GetLength(0); y++)
+            for (int i = 0; i < a.Length; i++)
             {
-                for (int x = 0; x < b.GetLength(1); x++)
+                for (int j = 0; j < a[i].Length; j++)
                 {
-                    Console.Write(b[y, x] + "\t");
-
+                    Console.Write(a[i][j] + "\t");
                 }
                 Console.WriteLine();
             }
-            
+
             Console.ReadLine();
 
 
