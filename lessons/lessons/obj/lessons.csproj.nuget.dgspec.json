@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dew\\save\\firstproject\\lessons\\lessons\\lessons.csproj": {}
+    "D:\\програмування\\save\\firstproject\\lessons\\lessons\\lessons.csproj": {}
   },
   "projects": {
-    "D:\\dew\\save\\firstproject\\lessons\\lessons\\lessons.csproj": {
+    "D:\\програмування\\save\\firstproject\\lessons\\lessons\\lessons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dew\\save\\firstproject\\lessons\\lessons\\lessons.csproj",
+        "projectUniqueName": "D:\\програмування\\save\\firstproject\\lessons\\lessons\\lessons.csproj",
         "projectName": "lessons",
-        "projectPath": "D:\\dew\\save\\firstproject\\lessons\\lessons\\lessons.csproj",
+        "projectPath": "D:\\програмування\\save\\firstproject\\lessons\\lessons\\lessons.csproj",
         "packagesPath": "C:\\Users\\markh\\.nuget\\packages\\",
-        "outputPath": "D:\\dew\\save\\firstproject\\lessons\\lessons\\obj\\",
+        "outputPath": "D:\\програмування\\save\\firstproject\\lessons\\lessons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
