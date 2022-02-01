@@ -7,30 +7,72 @@ namespace lessons
     {
         static void Main(string[] args)
         {
-            
-            int[][] a = new int[3][];
-            a[0] = new int[3];
-            a[1] = new int[2];
-            a[2] = new int[5];
-
-            Random random = new Random();
-            for (int i = 0; i < a.Length; i++)
+            int[,,] a =
             {
-                for (int j = 0; j < a[i].Length; j++)
+
                 {
-                    a[i][j] = random.Next(100);
+                    {1, 2, 3 },
+                    {1, 2, 3}
+                },
+
+                {
+                    {4, 5, 6 },
+                    {4, 5 ,6}
+                },
+
+                {
+                    {7, 8, 9 },
+                    {7, 8 ,9}
                 }
 
+            };
+            Random random = new Random();
+            int[,,] b = new int[3, 5, 4];
+            for (int i = 0; i < b.GetLength(0); i++)
+            {
+                for (int j = 0; j < b.GetLength(1); j++)
+                {
+                    for (int t = 0; t < b.GetLength(2); t++)
+                    {
+                        b[i, j, t] = random.Next(100);
+                    }
+                }
             }
 
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < b.GetLength(0); i++)
             {
-                for (int j = 0; j < a[i].Length; j++)
+                Console.WriteLine("page : " + (i +1));
+                for (int j = 0; j < b.GetLength(1); j++)
                 {
-                    Console.Write(a[i][j] + "\t");
+                    for (int t = 0; t < b.GetLength(2); t++)
+                    {
+                        Console.Write(b[i, j, t] + "\t");
+                    }
+                    Console.WriteLine();
                 }
                 Console.WriteLine();
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             Console.ReadLine();
 
